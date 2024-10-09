@@ -1,0 +1,40 @@
+body {
+	background-color:#fcf7f8;
+}
+h1{
+	color:#333333;
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	background-color: #E7E9EF;
+	width: 80%;
+}
+img{
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 5px;
+	width: 150px;
+	float:left;
+}
+.container-fluid{
+	position: right;
+}
+.Navigation{
+	background-color: #E3002B;
+	border-inline: 50px;
+}
+row{
+	display:inline-block;
+	vertical-align: middle;
+}
+
+button{
+	background-color: #B60022;
+	border-radius:10px;
+	border-color:#B60022;
+}
+.container{
+	background-color:#E7E9EF;
+	border-radius: 10px;
+}
