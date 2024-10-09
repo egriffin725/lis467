@@ -1,0 +1,27 @@
+div.static{
+	position:static;
+	border:3px solid #699D97;
+}
+div.relative{
+	position:relative;
+	left:50px;
+	width: 1000px;
+	height:400px;
+	border:3px solid #699D97;
+}
+div.fixed{
+	position:fixed;
+	bottom: 0;
+	right: 0;
+	width: 500px;
+	border:3px solid #699D97;
+	background-color:#245F58;
+}
+div.absolute{
+	position: absolute;
+	top: 10px;
+	right: 0;
+	width: 500px;
+	height: 200px;
+	border: 3px solid #699D97;
+}
