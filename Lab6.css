@@ -1,0 +1,37 @@
+html {font-size: 100%;}
+@media (min-width: 40em) {
+ html {font-size: 112.5%;}
+}
+h1 {font-size: 1.25em;
+margin-left:30%;
+margin-right:25%;
+font-family: Roboto Slab;
+font-face:Roboto Slab}
+
+p{font-size:1.1667em;
+	font-family:Roboto Mono;
+	font-face:Roboto Mono;
+	top:10%;
+}
+
+
+@media (min-width: 40em) {
+ html {font-size: 0.9167em;}
+}
+
+h2 {
+	font-size: 0.9167em;
+	color:#0D7B87;
+}
+div.overview{
+	position:static;
+	bottom:10%;
+	border:3px solid #699D97;}
+
+div.body{
+	position:static;
+	top:10%;
+	width:50%;
+	margin-right: 25%;
+	margin-left:24%;
+}
