@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+	<h1>Practicing Javascript Variables</h1>
+	<p>When using JavaScript, variables are containers for data. This page is an example of how to use variables to write interactive content on the website. I'll use an example with buttons from a tutorial on Mozilla's JavaScript tutorial</p>
+<script>
+	const button_A = document.querySelector("#button_A");
+const heading_A = document.querySelector("#heading_A");
+
+let count = 1;
+
+button_A.onclick = () => {
+  button_A.textContent = "Try again!";
+  heading_A.textContent = `${count} clicks so far`;
+  count += 1;
+};
+</script>
+<p id="demo"></p>
+
+<script>
+const pi = 3.14;
+let person = "John Doe";
+let answer = 'Yes I am!';
+
+document.getElementById("demo").innerHTML =
+pi + "<br>" + person + "<br>" + answer;
+</script>
+<button id="button_A">Press Me</button>
+<h3 id="heading_A"></h3>
+</body>
