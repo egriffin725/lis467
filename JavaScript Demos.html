@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Tutorials - Wk 8</h2>
+
+<p id="student"></p>
+
+<script>
+  const student = {
+  firstName : "Liz",
+  lastName  : "Griffin",
+  age     : 26,
+  eyeColor  : "blue"
+};
+let student2= prompt ("What is your name?");
+let text = Object.entries(student);
+document.getElementById("student").innerHTML = student.firstName + " " + "is a" + " "+ student.age+" "+"y/o student in the SLIS program."+" "+"They are friends with"+" "+student2;
+</script>
+
+</body>
+</html>
