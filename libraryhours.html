@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Library Hours</h1>
+
+<p>The Library's Hours Are:</p>
+
+<p id="demo"></p>
+
+<script>
+const fruits = ["Monday: 9a - 9p", "Tuesday: 9a - 9p", "Wednesday: 9a - 9p", "Thursday: 9a - 9p","Friday: 9a - 5p","Saturday: 9a - 5p","Sunday: closed"];
+
+let text = "<ul>";
+fruits.forEach(myFunction);
+text += "</ul>";
+
+document.getElementById("demo").innerHTML = text;
+
+function myFunction(value) {
+  text += "<li>" + value + "</li>";
+} 
+</script>
+
+</body>
+</html>
