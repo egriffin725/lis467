@@ -1,25 +1,65 @@
 <!DOCTYPE html>
 <html>
 <body>
+
 <h1>Library Hours</h1>
 
-<p>The Library's Hours Are:</p>
-
-<p id="demo"></p>
+<p id="monday"></p>
 
 <script>
-const hours = ["Monday: 9a - 9p", "Tuesday: 9a - 9p", "Wednesday: 9a - 9p", "Thursday: 9a - 9p","Friday: 9a - 5p","Saturday: 9a - 5p","Sunday: closed"];
+let monday = "Monday 9a - 9p";
+const monArray = monday.split(" ");
 
-let text = "<ul>";
-hours.forEach(myFunction);
-text += "</ul>";
+document.getElementById("monday").innerHTML = "on"+" "+monArray[0]+" "+"the hours are"+" "+monArray[1]+monArray[2]+" "+monArray[3]; 
 
-document.getElementById("demo").innerHTML = text;
-
-function myFunction(value) {
-  text += "<li>" + value + "</li>";
-} 
 </script>
 
+<p id="tuesday"></p>
+<script>
+let tuesday = "Tuesday 9a - 9p";
+const tuesArray = tuesday.split(" ");
+
+document.getElementById("tuesday").innerHTML = "on"+" "+tuesArray[0]+" "+"the hours are"+" "+tuesArray[1]+tuesArray[2]+" "+tuesArray[3]; 
+</script>
+
+<p id="wednesday"></p>
+<script>
+let wednesday = "Wednesday 9a - 9p";
+const wedArray = wednesday.split(" ");
+
+document.getElementById("wednesday").innerHTML = "on"+" "+wedArray[0]+" "+"the hours are"+" "+wedArray[1]+wedArray[2]+" "+wedArray[3]; 
+</script>
+
+<p id="thursday"></p>
+<script>
+let thursday = "Thursday 9a - 9p";
+const thuArray = thursday.split(" ");
+
+document.getElementById("thursday").innerHTML = "on"+" "+thuArray[0]+" "+"the hours are"+" "+thuArray[1]+thuArray[2]+" "+thuArray[3]; 
+</script>
+
+<p id="friday"></p>
+
+<script>
+let friday = "Friday 9a - 5p";
+const friArray = friday.split(" ");
+
+document.getElementById("friday").innerHTML = "on"+" "+friArray[0]+" "+"the hours are"+" "+friArray[1]+friArray[2]+" "+friArray[3]; 
+</script>
+<p id=saturday></p>
+
+<script>
+let saturday = "Saturday 9a - 5p";
+const satArray = saturday.split(" ");
+
+document.getElementById("saturday").innerHTML = "on"+" "+satArray[0]+" "+"the hours are"+" "+satArray[1]+satArray[2]+" "+satArray[3]; 
+</script>
+<p id=sunday></p>
+<script>
+let sunday = "Sunday library is closed";
+const sunArray = sunday.split(" ");
+
+document.getElementById("sunday").innerHTML = "on"+" "+sunArray[0]+" "+"the library is closed"; 
+</script>
 </body>
 </html>
