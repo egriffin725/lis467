@@ -1,0 +1,22 @@
+footer
+{
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#PostButtonContainer
+{
+    margin-top: 25px;
+}
+.postContainer
+{
+    margin-top: 10px;
+}
+.postThumbnail
+{
+    width: 100px;
+}
+.postMainBody
+{
+    margin-top: 15px;
+}
