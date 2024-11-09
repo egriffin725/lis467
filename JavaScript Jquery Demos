@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<charset utf-8></charset>
+	<title>JavaScript Continued</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="javascripttutorial_style.css">
+</head>
+<body>
+	  	<row><title>Navigation</title>
+  		<button id="home" type="button"> <a href="LALHome.html">Home</a></button>
+  		<button id="about" type="button"><a href="LALAbout.html">About</a></button>
+  		<button id="gallery" type="button" onmouseover="galleryButton()">Gallery</button>
+  	</row>
+	<p id="p1">This page shows you some elements & DOM features manipulated by JavaScript. I am testing some features for use in my final project.</p>
+	<p>This script will print the date as:</p>
+	<script>
+		document.getElementById("p1").innerhtml ="Hello JavaScript Student";
+	</script>
+	<script> 
+		document.write(Date());
+	</script>
+	<h1 id="theme" onclick="projectTheme()" value="Surrealism and its Artists">Click on this heading to see my project's theme</h1>
+	<script>
+		function projectTheme(){
+			alert("Surrealism and its Artists")
+		}
+	</script>
+	<script>
+		function galleryButton(){
+			window.alert("The gallery feature is under construction")
+		}
+	</script>
+	<h2 id="hide"> This section of the HTML doc is reserved for the JQuery Tutorials in the Duckett JavaScript & JQuery Textbook. Click this line to hide the first paragraph.</h2>
+	<script type="text/javascript">
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+	</script>
+
+<div class="animated">
+	<p>This is a div I will animate with JQuery</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+$("div").click(function(){
+  $("p").animate({
+    left: '250px',
+    height: '+=150px',
+    width: '+=150px'
+  });
+}); 
+</script>
+
+</body>
+</html>
