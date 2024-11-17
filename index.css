@@ -20,3 +20,12 @@ footer
 {
     margin-top: 15px;
 }
+.thumbnailContainer
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#PaginationList
+{
+	display: inline-flex;
+}
